@@ -1,57 +1,63 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!-- Header and Menu -->
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <img class="img-fluid img-logo" src="images/logo.png">                   
-                <div class="display-4 align-middle">Explore Austin</div>                    
-            </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Who We Are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Get Involved</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header and Menu -->
+
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
+            <img class="img-fluid img-logo" src="images/logo.png">
+            <div class="display-4 align-middle">Explore Austin</div>
+            <button type="button" class="btn btn-primary">Donate</button>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Who We Are</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">What We Do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
         <!-- End of Header and Menu -->
         <div class="container container-main">
             <h3 class="text-center">Our Mission</h3>
             <p class="text-center">
                 To change the lives of the underserved youth through Leadership, Mentoring, and Adventure
             </p>
-            <img class="img-fluid" src="images/Three girls with turtle.png">
-
+            <center><img class="img-fluid" src="images/Three girls with turtle.png"></center>
             <div class="row nav-buttons">
                 <div class="col-12 col-md-4">
                     <button type="button" class="btn btn-success btn-link">
                         Action Shots
                     </button>
-                    <div class="d-none d-md-block">
-                        pic/video/text
+                    <div id="videoWrapper" class="d-none d-md-block">
+                        <iframe class="img-fluid" width="400" height="250" src="https://www.youtube.com/embed/HWSazQvniYE"
+                            allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
@@ -59,64 +65,73 @@
                         Recent News
                     </button>
                     <div class="d-none d-md-block">
-                        pic/video/text
+                        <h4>Rodolfo Shares His Story</h4>
+                        <p>March 26, 2015</p>
+                        <br>
+                        <p>My name is Rodolfo Galvan and I am in the Explore Austin class of 2015. I first started when
+                            I was in 6th grade.
+                            Explore Austin has showed me that although there...</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <button type="button" class="btn btn-success btn-link">
                         Why Mentor
-                    </button> 
+                    </button>
                     <div class="d-none d-md-block">
-                        pic/video/text
+                        <img class="img-fluid" src="images/why mentor pic.jpeg">
                     </div>
                 </div>
             </div>
         </div>
         <!-- Start of footer -->
-        </div>
+    </div>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="row">
-                            <div class="col-12">
-                                <a href="#">Explorer Resources</a>
-                            </div>
-                            <div class="col-12">
-                                <a href="#">Mentor Resources</a>
-                            </div>
-                            <div class="col-12">
-                                <a href="#">Program Calendar</a>
-                            </div>
-                            <div class="col-12">
-                                <a href="#">Contact</a>
-                            </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="#">Explorer Resources</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="#">Mentor Resources</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="#">Program Calendar</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="#">Contact</a>
                         </div>
                     </div>
-                    <div class="col-4 social-icons">
-                        <div class="row">
-                            <div class="col-6">
-                                <i class="fa fa-facebook-official"></i>
-                            </div>   
-                            <div class="col-6">
-                                <i class="fa fa-instagram"></i>
-                            </div>   
-                            <div class="col-6">
-                                <i class="fa fa-twitter"></i>
-                            </div>   
-                            <div class="col-6">
-                                <i class="fa fa-linkedin-square"></i>
-                            </div>                        
+                </div>
+                <div class="col-4 social-icons">
+                    <div class="row">
+                        <div class="col-6">
+                            <i class="fa fa-facebook-official"></i>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa fa-linkedin-square"></i>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- End of footer -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="app.js"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- End of footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
 </html>
